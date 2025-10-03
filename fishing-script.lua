@@ -145,7 +145,7 @@ end
 createTeleportButton("Penjual Pancing", 60, Vector3.new(122.6,17.5,2844.7))
 createTeleportButton("Penjual Pelet", 110, Vector3.new(111.9,17.3,2866.2))
 createTeleportButton("Jual Ikan", 160, Vector3.new(48.6,17.3,2865.4))
-createTeleportButton("Spot Gacor", 210, Vector3.new(-3657.8 -134.1 -963.7)) -- tombol baru
+createTeleportButton("Spot Gacor", 210, Vector3.new(3227.8,-1302.9,1394.8)) -- tombol baru
 
 -- ====== Toggle Panel ======
 local panelVisible = false
