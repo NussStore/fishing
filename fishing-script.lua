@@ -88,7 +88,7 @@ end)
 
 -- ====== PANEL TENGAH ======
 local panel = Instance.new("Frame")
-panel.Size = UDim2.new(0, 300, 0, 270) -- diperbesar karena ada tombol tambahan
+panel.Size = UDim2.new(0, 300, 0, 270)
 panel.Position = UDim2.new(0.5, -150, 0.5, -135)
 panel.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 panel.Visible = false
@@ -112,7 +112,7 @@ title.Parent = panel
 -- Fungsi teleport cepat (smooth)
 local function smoothTeleport(targetPos)
 	task.spawn(function()
-		for i=1,10 do
+		for i = 1, 10 do
 			hrp.CFrame = CFrame.new(hrp.Position:Lerp(targetPos, 0.3))
 			task.wait(0.05)
 		end
@@ -145,7 +145,7 @@ end
 createTeleportButton("Penjual Pancing", 60, Vector3.new(122.6,17.5,2844.7))
 createTeleportButton("Penjual Pelet", 110, Vector3.new(111.9,17.3,2866.2))
 createTeleportButton("Jual Ikan", 160, Vector3.new(48.6,17.3,2865.4))
-createTeleportButton("Spot Gacor", 210, Vector3.new(-2055.0,8.9,3778.2)) -- tombol baru
+createTeleportButton("Spot Gacor", 210, Vector3.new(-2137.0, -8.2, 3663.6)) -- koordinat baru
 
 -- ====== Toggle Panel ======
 local panelVisible = false
